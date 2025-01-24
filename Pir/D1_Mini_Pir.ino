@@ -3,7 +3,7 @@
 
 #define led 2  // OJO: En el D1 mini, el led interno, en el GPIO2 se activa en Bajo, es decir, en LOW se enciende y en HIGH de apaga.
 #define pir 0
-int tmp_pir = 0;
+uint32_t  tmp_pir = 0;
 bool stat_pir = false;
 
 void setup() {
