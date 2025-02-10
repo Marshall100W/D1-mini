@@ -7,7 +7,8 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClientSecure.h>
 
-const char* ssid = "ssid" const char* password = "password";
+const char* ssid = "ssid";
+const char* password = "password";
 
 #define OLED_RESET -1
 Adafruit_SSD1306 display(128, 64, &Wire, OLED_RESET);
